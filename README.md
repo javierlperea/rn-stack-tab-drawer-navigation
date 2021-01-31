@@ -10,27 +10,27 @@
 
 ### Implementacion de React Navigation
 
-1. Instalar react-navigation/native
+1. Instalar react-navigation/native <br/>
 ``npm install @react-navigation/native``
 
-2. Instalar todas las dependencias
+2. Instalar todas las dependencias <br/>
 ``npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view``
 
-3. Instalar navegación de tipo Stack
+3. Instalar navegación de tipo Stack <br/>
 ``npm i @react-navigation/stack``
 
-4. Instalar navegación de tipo Bottom Tab persozalizada con:
+4. Instalar navegación de tipo Bottom Tab persozalizada con: <br/>
 ``npm i @react-navigation/material-bottom-tabs``
 
-5. Instalar navegación de tipo Drawer
+5. Instalar navegación de tipo Drawer <br/>
 ``npm i @react-navigation/stack``
 
-6. Para usar correctamente los iconos
+6. Para usar correctamente los iconos <br/>
 ``npm i react-native-vector-icons``
 *Luego debes ejecutar el siguiente comando para que sean aceptados los iconos* <br/>
 ``react-native link react-native-vector-icons``
 
-7. Por ultimo dependiendo si desarrollas para android, ios o ambos: 
+7. Por ultimo dependiendo si desarrollas para android, ios o ambos: <br/>
 
 **Si desarrollas una app para iOS**
 - DESDE LA CONSOLA ``cd ios/``
@@ -41,7 +41,7 @@
 *implementation 'androidx.appcompat:appcompat:1.1.0-rc01'*<br/>
 *implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'*
 
-8. Para finalizar en el archivo App.js agregar la siguiente dependencia al inicio del todo el código
+8. Para finalizar en el archivo App.js agregar la siguiente dependencia al inicio del todo el código <br/>
 - import 'react-native-gesture-handler';
 
 ### Implementacion de React Native Paper
