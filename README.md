@@ -13,6 +13,7 @@ https://raw.githubusercontent.com/javierlperea/rn-stack-tab-drawer-navigation/ma
 https://raw.githubusercontent.com/javierlperea/rn-stack-tab-drawer-navigation/master/assets/readme/stack2.png <br/>
 https://raw.githubusercontent.com/javierlperea/rn-stack-tab-drawer-navigation/master/assets/readme/stack3.png <br/>
 https://raw.githubusercontent.com/javierlperea/rn-stack-tab-drawer-navigation/master/assets/readme/drawer.png <br/>
+https://raw.githubusercontent.com/javierlperea/rn-stack-tab-drawer-navigation/master/assets/readme/about.png <br/>
 
 ### Implementacion de React Navigation
 
