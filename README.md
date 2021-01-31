@@ -26,7 +26,7 @@
 ``npm i @react-navigation/stack``
 
 6. Para usar correctamente los iconos <br/>
-``npm i react-native-vector-icons``
+``npm i react-native-vector-icons`` <br/>
 *Luego debes ejecutar el siguiente comando para que sean aceptados los iconos* <br/>
 ``react-native link react-native-vector-icons``
 
