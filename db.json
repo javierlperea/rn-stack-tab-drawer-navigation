@@ -1,0 +1,236 @@
+{
+    "products": [
+      {
+        "codigo": "pb201",
+        "descripcion": "crema de ordeñe",
+        "precioPublico": "600",
+        "precioRevendedor": "330",
+        "categoria": "corporales",
+        "stock": "135"
+      },
+      {
+        "codigo": "pb202",
+        "descripcion": "crema de ordeñe",
+        "precioPublico": "600",
+        "precioRevendedor": "330",
+        "categoria": "corporales",
+        "stock": "135"
+      },
+      {
+        "codigo": "pb203",
+        "descripcion": "crema de ordeñe",
+        "precioPublico": "600",
+        "precioRevendedor": "330",
+        "categoria": "corporales",
+        "stock": "135"
+      },
+      {
+        "codigo": "pb206",
+        "descripcion": "crema de baño",
+        "precioPublico": "400",
+        "precioRevendedor": "230",
+        "categoria": "corporales",
+        "stock": "55"
+      },
+      {
+        "codigo": "pb207",
+        "descripcion": "crema de baño",
+        "precioPublico": "400",
+        "precioRevendedor": "230",
+        "categoria": "corporales",
+        "stock": "55"
+      },
+      {
+        "codigo": "pb208",
+        "descripcion": "crema de baño",
+        "precioPublico": "400",
+        "precioRevendedor": "230",
+        "categoria": "corporales",
+        "stock": "55"
+      },
+      {
+        "codigo": "pb209",
+        "descripcion": "crema de baño",
+        "precioPublico": "400",
+        "precioRevendedor": "230",
+        "categoria": "corporales",
+        "stock": "55"
+      },
+      {
+        "codigo": "pb210",
+        "descripcion": "crema",
+        "precioPublico": "500",
+        "precioRevendedor": "275",
+        "categoria": "corporales",
+        "stock": "14"
+      },
+      {
+        "codigo": "rj210",
+        "descripcion": "crema blanqueadora rejuvalene",
+        "precioPublico": "300",
+        "precioRevendedor": "165",
+        "categoria": "faciales",
+        "stock": "5"
+      },
+      {
+        "codigo": "rj211",
+        "descripcion": "crema facial rejuvalene",
+        "precioPublico": "250",
+        "precioRevendedor": "100",
+        "categoria": "faciales",
+        "stock": "8"
+      },
+      {
+        "codigo": "rj212",
+        "descripcion": "crema facial rejuvalene",
+        "precioPublico": "250",
+        "precioRevendedor": "100",
+        "categoria": "faciales",
+        "stock": "8"
+      },
+      {
+        "codigo": "rj213",
+        "descripcion": "crema facial rejuvalene",
+        "precioPublico": "250",
+        "precioRevendedor": "100",
+        "categoria": "faciales",
+        "stock": "8"
+      },
+      {
+        "codigo": "rj214",
+        "descripcion": "crema facial rejuvalene",
+        "precioPublico": "250",
+        "precioRevendedor": "100",
+        "categoria": "faciales",
+        "stock": "8"
+      },
+      {
+        "codigo": "rj215",
+        "descripcion": "rejuvalene",
+        "precioPublico": "300",
+        "precioRevendedor": "150",
+        "categoria": "faciales",
+        "stock": "15"
+      },
+      {
+        "codigo": "rj216",
+        "descripcion": "rejuvalene",
+        "precioPublico": "300",
+        "precioRevendedor": "150",
+        "categoria": "faciales",
+        "stock": "15"
+      },
+      {
+        "codigo": "rj217",
+        "descripcion": "rejuvalene",
+        "precioPublico": "300",
+        "precioRevendedor": "150",
+        "categoria": "faciales",
+        "stock": "15"
+      },
+      {
+        "codigo": "rj218",
+        "descripcion": "rejuvalene",
+        "precioPublico": "300",
+        "precioRevendedor": "150",
+        "categoria": "faciales",
+        "stock": "15"
+      },
+      {
+        "codigo": "rj219",
+        "descripcion": "rejuvalene",
+        "precioPublico": "300",
+        "precioRevendedor": "150",
+        "categoria": "faciales",
+        "stock": "15"
+      },
+      {
+        "codigo": "rj220",
+        "descripcion": "rejuvalene",
+        "precioPublico": "300",
+        "precioRevendedor": "150",
+        "categoria": "faciales",
+        "stock": "15"
+      },
+      {
+        "codigo": "oc101",
+        "descripcion": "shampoo henna",
+        "precioPublico": "475",
+        "precioRevendedor": "247",
+        "categoria": "capilares",
+        "stock": "4"
+      },
+      {
+        "codigo": "oc102",
+        "descripcion": "acondicionador henna",
+        "precioPublico": "450",
+        "precioRevendedor": "230",
+        "categoria": "capilares",
+        "stock": "10"
+      },
+      {
+        "codigo": "oc103",
+        "descripcion": "acondicionador henna",
+        "precioPublico": "450",
+        "precioRevendedor": "230",
+        "categoria": "capilares",
+        "stock": "40"
+      },
+      {
+        "codigo": "oc104",
+        "descripcion": "acondicionador henna",
+        "precioPublico": "450",
+        "precioRevendedor": "230",
+        "categoria": "capilares",
+        "stock": "40"
+      },
+      {
+        "codigo": "oc105",
+        "descripcion": "acondicionador henna",
+        "precioPublico": "450",
+        "precioRevendedor": "230",
+        "categoria": "capilares",
+        "stock": "40"
+      },
+      {
+        "codigo": "oc106",
+        "descripcion": "acondicionador henna",
+        "precioPublico": "450",
+        "precioRevendedor": "230",
+        "categoria": "capilares",
+        "stock": "40"
+      },
+      {
+        "codigo": "oc107",
+        "descripcion": "acondicionador henna",
+        "precioPublico": "450",
+        "precioRevendedor": "230",
+        "categoria": "capilares",
+        "stock": "40"
+      },
+      {
+        "codigo": "oc108",
+        "descripcion": "acondicionador henna",
+        "precioPublico": "450",
+        "precioRevendedor": "230",
+        "categoria": "capilares",
+        "stock": "40"
+      },
+      {
+        "codigo": "oc109",
+        "descripcion": "acondicionador henna",
+        "precioPublico": "450",
+        "precioRevendedor": "230",
+        "categoria": "capilares",
+        "stock": "40"
+      },
+      {
+        "codigo": "oc110",
+        "descripcion": "acondicionador henna",
+        "precioPublico": "450",
+        "precioRevendedor": "230",
+        "categoria": "capilares",
+        "stock": "40"
+      }
+    ]
+  }
