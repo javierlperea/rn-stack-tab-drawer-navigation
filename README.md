@@ -6,6 +6,8 @@
 
 *Se implementa el framework React Native Paper y react-native-vector-icons para mejorar la interfaz de la App.*
 
+!["Stack-Navigator"](assets/readme/stack1.png"Stack Navigator")
+
 *Genera tu propio API gracias a [json-server](https://github.com/typicode/json-server).*
 
 ### Implementacion de React Navigation
