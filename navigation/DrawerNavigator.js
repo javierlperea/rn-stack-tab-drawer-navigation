@@ -9,7 +9,6 @@ import { SettingStackNavigator } from "./StackNavigator";
 import TabNavigator from "./TabNavigator";
 import DrawerContent from "../screens/DrawerContent";
 import About from "../screens/About";
-// import Product from "../screens/Product";
 
 const Drawer = createDrawerNavigator();
 

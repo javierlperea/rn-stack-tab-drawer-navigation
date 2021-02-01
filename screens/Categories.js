@@ -1,15 +1,14 @@
 // ./screens/Categories.js
 
 import React, { useState } from "react";
-import { View, StyleSheet,FlatList } from "react-native";
+import { View, StyleSheet, FlatList } from "react-native";
 import { Button, List } from 'react-native-paper';
 
 import { globalStyles } from "../styles/globalStyles";
 
 import axios from 'axios';
 
-const Categories = ({navigation}) => {
-    console.log(navigation)
+const Categories = ({ navigation }) => {
 
     const [productos, setProductos] = useState([]);
 
@@ -17,9 +16,9 @@ const Categories = ({navigation}) => {
         try {
             const url = ('http://10.0.2.2:3000/products');
             const { data } = await axios.get(url);
-            const filtro = data.filter( prod => prod.categoria === categoria );    
-            setProductos(filtro)          
-    
+            const filtro = data.filter(prod => prod.categoria === categoria);
+            setProductos(filtro)
+
         } catch (err) {
             console.log(err)
         }
@@ -27,66 +26,65 @@ const Categories = ({navigation}) => {
 
     return (
         <>
+            <View style={globalStyles.container}>
 
-            <View style={ globalStyles.container }>
+                <View style={styles.containerButtons}>
 
-            <View style={ styles.containerButtons }>
-                
-                <View style={ styles.boxBtn }>
-                    <Button 
-                        style={ styles.btn}
-                        mode="contained"
-                        onPress={ () => getProductosByCategory('capilares') }
-                    >
-                Capilares
+                    <View style={styles.boxBtn}>
+                        <Button
+                            style={styles.btn}
+                            mode="contained"
+                            onPress={() => getProductosByCategory('capilares')}
+                        >
+                            Capilares
                     </Button>
-                </View>
+                    </View>
 
-                <View style={ styles.boxBtn }>
-                    <Button 
-                        style={ styles.btn}
-                        mode="contained"
-                        onPress={ () => getProductosByCategory('corporales') }
-                    >
-                Corporales
+                    <View style={styles.boxBtn}>
+                        <Button
+                            style={styles.btn}
+                            mode="contained"
+                            onPress={() => getProductosByCategory('corporales')}
+                        >
+                            Corporales
                     </Button>
+                    </View>
+
+                    <View style={styles.boxBtn}>
+                        <Button
+                            style={styles.btn}
+                            mode="contained"
+                            onPress={() => getProductosByCategory('faciales')}
+                        >
+                            Faciales
+                    </Button>
+                    </View>
+
+                    <View style={styles.boxBtn}>
+                        <Button
+                            style={styles.btn}
+                            mode="contained"
+                        >
+                            Muestra
+                    </Button>
+                    </View>
                 </View>
 
-                <View style={ styles.boxBtn }>
-                    <Button 
-                        style={ styles.btn}
-                        mode="contained"
-                        onPress={ () => getProductosByCategory('faciales')  }
-                    >
-                Faciales
-                    </Button> 
-                </View>
 
-                <View style={ styles.boxBtn }>
-                    <Button 
-                        style={ styles.btn}
-                        mode="contained"
-                    >
-                Muestra
-                    </Button> 
-                </View>
-            </View>
-
-
-            <FlatList 
-                data={ productos }
-                keyExtractor={ item => (item.codigo).toString()  }
-                renderItem={ ({item}) => (
-                    <List.Item 
-                        style={ styles.list }
-                        titleStyle={ styles.listTitle }
-                        descriptionStyle={ styles.listText }
-                        title={ item.codigo } 
-                        description={ item.descripcion }
-                        onPress={ () => navigation.navigate( 'Product', { item } ) }
-                    />
-                )}
-            />
+                <FlatList
+                    data={productos}
+                    keyExtractor={item => (item.codigo).toString()}
+                    renderItem={({ item }) => (
+                        <List.Item
+                            style={styles.list}
+                            titleStyle={styles.listTitle}
+                            descriptionStyle={styles.listText}
+                            title={item.codigo}
+                            description={item.descripcion}
+                            onPress={() => navigation.navigate('Product', { item })}
+                        />
+                    )}
+                />
             </View>
         </>
     );
@@ -104,7 +102,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         flexWrap: 'wrap',
         justifyContent: 'space-between'
-    },  
+    },
     boxBtn: {
         marginBottom: 10,
         width: '49%',

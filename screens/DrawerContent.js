@@ -9,8 +9,6 @@ import Icon from 'react-native-vector-icons/Feather';
 
 
 const DrawerContent = (props) => {
-    console.log(props)
-
 
     const [ isDarkTheme, setisDarkTheme ] = useState(false);
 

@@ -3,13 +3,14 @@
 import React from "react";
 import { MainStackNavigator, SettingStackNavigator, CategoriesStackNavigator } from "./StackNavigator";
 
+// Bottom tab navigation personalizado
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 
 import Icon from 'react-native-vector-icons/Feather';
 
 const Tab = createMaterialBottomTabNavigator();
 
-const BottomTabNavigator = () => {
+const TabNavigator = () => {
     return (
         <Tab.Navigator
         activeColor="#162F3C"
@@ -49,4 +50,4 @@ const BottomTabNavigator = () => {
     );
 };
 
-export default BottomTabNavigator;
+export default TabNavigator;

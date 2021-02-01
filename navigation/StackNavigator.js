@@ -2,6 +2,7 @@
 
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
+import Icon from 'react-native-vector-icons/Ionicons'
 
 import Home from "../screens/Home";
 import About from "../screens/About";
@@ -17,13 +18,28 @@ const screenOptionStyle = {
   },
   headerTintColor: 'white',
   headerBackTitle: 'Back',
-  headerTitleAlign: 'center'
+  headerTitleAlign: 'center',
 };
 
-const MainStackNavigator = () => {
+// MainStackNavigator, SettingStackNavigator, CategoriesStackNavigator van a ser mostradas en el bottom tab navigator 
+
+const MainStackNavigator = ({ navigation }) => {
   return (
     <Stack.Navigator screenOptions={screenOptionStyle}>
-      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen 
+        name="Home" 
+        component={Home} 
+        options={ () => ({
+          headerLeft: () => 
+            <Icon.Button 
+              name='ios-menu' 
+              size={25}
+              backgroundColor="#162F3C"
+              onPress={ () => navigation.openDrawer() }
+            ></Icon.Button>
+        })
+        }
+      />
       <Stack.Screen name="About" component={About} />
       <Stack.Screen name="Product" component={Product} />
     </Stack.Navigator>
